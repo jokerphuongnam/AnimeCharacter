@@ -1,0 +1,6 @@
+framework module Pods_Contest {
+  umbrella header "Pods-Contest-umbrella.h"
+
+  export *
+  module * { export * }
+}

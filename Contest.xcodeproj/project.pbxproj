@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33AE5D010CE6C479594CA5DE /* Pods_Contest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FD80442FC2317DAE605299 /* Pods_Contest.framework */; };
+		8A2F15A426AAE8D3009652BF /* AnimeCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2F15A326AAE8D3009652BF /* AnimeCharacter.swift */; };
+		8A2F15A726AAE9A2009652BF /* FakeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2F15A626AAE9A2009652BF /* FakeData.swift */; };
+		8A2F15AB26AAF299009652BF /* AppErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2F15AA26AAF299009652BF /* AppErrors.swift */; };
+		8A2F15B026AB0391009652BF /* ImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2F15AF26AB0391009652BF /* ImageViewExtension.swift */; };
+		8A60E9A226ABFC5B00B8740E /* AnimeCharacterDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A60E9A126ABFC5B00B8740E /* AnimeCharacterDetailViewModel.swift */; };
+		8A60E9A626ABFCB700B8740E /* AnimeCharactersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A60E9A526ABFCB700B8740E /* AnimeCharactersViewModel.swift */; };
+		8A60E9A926ABFCE700B8740E /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A60E9A826ABFCE700B8740E /* Result.swift */; };
+		8A60E9AC26ABFDAF00B8740E /* AnimeCharactersLocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A60E9AB26ABFDAF00B8740E /* AnimeCharactersLocal.swift */; };
+		8A60E9B126ABFE1C00B8740E /* AnimeCharactersNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A60E9B026ABFE1C00B8740E /* AnimeCharactersNetwork.swift */; };
+		8A60E9B526ABFEEF00B8740E /* AnimeCharactersRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A60E9B426ABFEEF00B8740E /* AnimeCharactersRepository.swift */; };
+		8ACC56CC26AADD8D00CA27A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACC56CB26AADD8D00CA27A6 /* AppDelegate.swift */; };
+		8ACC56CE26AADD8D00CA27A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACC56CD26AADD8D00CA27A6 /* SceneDelegate.swift */; };
+		8ACC56D526AADD8D00CA27A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ACC56D426AADD8D00CA27A6 /* Assets.xcassets */; };
+		8ACC56D826AADD8D00CA27A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ACC56D626AADD8D00CA27A6 /* LaunchScreen.storyboard */; };
+		8ACC56FA26AAE1A200CA27A6 /* AnimeCharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACC56F826AAE1A200CA27A6 /* AnimeCharactersViewController.swift */; };
+		8ACC570326AAE1DB00CA27A6 /* AnimeCharacterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACC570126AAE1DB00CA27A6 /* AnimeCharacterDetailViewController.swift */; };
+		8ACC570A26AAE23600CA27A6 /* AnimeChraterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACC570826AAE23600CA27A6 /* AnimeChraterTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A2F15A326AAE8D3009652BF /* AnimeCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeCharacter.swift; sourceTree = "<group>"; };
+		8A2F15A626AAE9A2009652BF /* FakeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeData.swift; sourceTree = "<group>"; };
+		8A2F15AA26AAF299009652BF /* AppErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppErrors.swift; sourceTree = "<group>"; };
+		8A2F15AF26AB0391009652BF /* ImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewExtension.swift; sourceTree = "<group>"; };
+		8A60E9A126ABFC5B00B8740E /* AnimeCharacterDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeCharacterDetailViewModel.swift; sourceTree = "<group>"; };
+		8A60E9A526ABFCB700B8740E /* AnimeCharactersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeCharactersViewModel.swift; sourceTree = "<group>"; };
+		8A60E9A826ABFCE700B8740E /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		8A60E9AB26ABFDAF00B8740E /* AnimeCharactersLocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeCharactersLocal.swift; sourceTree = "<group>"; };
+		8A60E9B026ABFE1C00B8740E /* AnimeCharactersNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeCharactersNetwork.swift; sourceTree = "<group>"; };
+		8A60E9B426ABFEEF00B8740E /* AnimeCharactersRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeCharactersRepository.swift; sourceTree = "<group>"; };
+		8ACC56C826AADD8D00CA27A6 /* Contest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ACC56CB26AADD8D00CA27A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8ACC56CD26AADD8D00CA27A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8ACC56D426AADD8D00CA27A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8ACC56D726AADD8D00CA27A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8ACC56D926AADD8D00CA27A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ACC56F826AAE1A200CA27A6 /* AnimeCharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeCharactersViewController.swift; sourceTree = "<group>"; };
+		8ACC570126AAE1DB00CA27A6 /* AnimeCharacterDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeCharacterDetailViewController.swift; sourceTree = "<group>"; };
+		8ACC570826AAE23600CA27A6 /* AnimeChraterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeChraterTableViewCell.swift; sourceTree = "<group>"; };
+		9B64E0B8401F85E524BA1029 /* Pods-Contest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contest.release.xcconfig"; path = "Target Support Files/Pods-Contest/Pods-Contest.release.xcconfig"; sourceTree = "<group>"; };
+		9C23DC1185A3E1F9B20447F9 /* Pods-Contest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contest.debug.xcconfig"; path = "Target Support Files/Pods-Contest/Pods-Contest.debug.xcconfig"; sourceTree = "<group>"; };
+		C5FD80442FC2317DAE605299 /* Pods_Contest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Contest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8ACC56C526AADD8D00CA27A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33AE5D010CE6C479594CA5DE /* Pods_Contest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A2F15A926AAF28B009652BF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8A2F15AA26AAF299009652BF /* AppErrors.swift */,
+				8A2F15AF26AB0391009652BF /* ImageViewExtension.swift */,
+				8A60E9A826ABFCE700B8740E /* Result.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8A60E99E26ABFC1000B8740E /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				8A60E9B426ABFEEF00B8740E /* AnimeCharactersRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		8A60E99F26ABFC2200B8740E /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				8A60E9AB26ABFDAF00B8740E /* AnimeCharactersLocal.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		8A60E9A026ABFC3000B8740E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8A60E9B026ABFE1C00B8740E /* AnimeCharactersNetwork.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		8A60E9AE26ABFDBE00B8740E /* Utls */ = {
+			isa = PBXGroup;
+			children = (
+				8A2F15A626AAE9A2009652BF /* FakeData.swift */,
+			);
+			path = Utls;
+			sourceTree = "<group>";
+		};
+		8A60E9AF26ABFDE500B8740E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8A2F15A326AAE8D3009652BF /* AnimeCharacter.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8ACC56BF26AADD8D00CA27A6 = {
+			isa = PBXGroup;
+			children = (
+				8ACC56CA26AADD8D00CA27A6 /* Contest */,
+				8ACC56C926AADD8D00CA27A6 /* Products */,
+				E36AF5CEED1010452909EE3F /* Pods */,
+				C3A7C8334011BAE27FAD128E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8ACC56C926AADD8D00CA27A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8ACC56C826AADD8D00CA27A6 /* Contest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8ACC56CA26AADD8D00CA27A6 /* Contest */ = {
+			isa = PBXGroup;
+			children = (
+				8A2F15A926AAF28B009652BF /* Utils */,
+				8ACC56E726AADF7E00CA27A6 /* Data */,
+				8ACC56E626AADF7300CA27A6 /* View */,
+				8ACC56CB26AADD8D00CA27A6 /* AppDelegate.swift */,
+				8ACC56CD26AADD8D00CA27A6 /* SceneDelegate.swift */,
+				8ACC56D426AADD8D00CA27A6 /* Assets.xcassets */,
+				8ACC56D626AADD8D00CA27A6 /* LaunchScreen.storyboard */,
+				8ACC56D926AADD8D00CA27A6 /* Info.plist */,
+			);
+			path = Contest;
+			sourceTree = "<group>";
+		};
+		8ACC56E626AADF7300CA27A6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8ACC570726AAE1F000CA27A6 /* AnimeChraterDetail */,
+				8ACC570626AAE1E200CA27A6 /* AnimeCharaters */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8ACC56E726AADF7E00CA27A6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8A60E9AF26ABFDE500B8740E /* Model */,
+				8A60E9AE26ABFDBE00B8740E /* Utls */,
+				8A60E9A026ABFC3000B8740E /* Network */,
+				8A60E99F26ABFC2200B8740E /* Local */,
+				8A60E99E26ABFC1000B8740E /* Repository */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		8ACC570626AAE1E200CA27A6 /* AnimeCharaters */ = {
+			isa = PBXGroup;
+			children = (
+				8ACC56F826AAE1A200CA27A6 /* AnimeCharactersViewController.swift */,
+				8ACC570826AAE23600CA27A6 /* AnimeChraterTableViewCell.swift */,
+				8A60E9A526ABFCB700B8740E /* AnimeCharactersViewModel.swift */,
+			);
+			path = AnimeCharaters;
+			sourceTree = "<group>";
+		};
+		8ACC570726AAE1F000CA27A6 /* AnimeChraterDetail */ = {
+			isa = PBXGroup;
+			children = (
+				8ACC570126AAE1DB00CA27A6 /* AnimeCharacterDetailViewController.swift */,
+				8A60E9A126ABFC5B00B8740E /* AnimeCharacterDetailViewModel.swift */,
+			);
+			path = AnimeChraterDetail;
+			sourceTree = "<group>";
+		};
+		C3A7C8334011BAE27FAD128E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5FD80442FC2317DAE605299 /* Pods_Contest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E36AF5CEED1010452909EE3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C23DC1185A3E1F9B20447F9 /* Pods-Contest.debug.xcconfig */,
+				9B64E0B8401F85E524BA1029 /* Pods-Contest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8ACC56C726AADD8D00CA27A6 /* Contest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ACC56DC26AADD8D00CA27A6 /* Build configuration list for PBXNativeTarget "Contest" */;
+			buildPhases = (
+				FE1F3294DD6D755CCCB499CC /* [CP] Check Pods Manifest.lock */,
+				8ACC56C426AADD8D00CA27A6 /* Sources */,
+				8ACC56C526AADD8D00CA27A6 /* Frameworks */,
+				8ACC56C626AADD8D00CA27A6 /* Resources */,
+				E15E53F83F00083BF3F85FDE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Contest;
+			productName = Contest;
+			productReference = 8ACC56C826AADD8D00CA27A6 /* Contest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8ACC56C026AADD8D00CA27A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					8ACC56C726AADD8D00CA27A6 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 8ACC56C326AADD8D00CA27A6 /* Build configuration list for PBXProject "Contest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8ACC56BF26AADD8D00CA27A6;
+			productRefGroup = 8ACC56C926AADD8D00CA27A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8ACC56C726AADD8D00CA27A6 /* Contest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8ACC56C626AADD8D00CA27A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ACC56D826AADD8D00CA27A6 /* LaunchScreen.storyboard in Resources */,
+				8ACC56D526AADD8D00CA27A6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E15E53F83F00083BF3F85FDE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Contest/Pods-Contest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Contest/Pods-Contest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Contest/Pods-Contest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE1F3294DD6D755CCCB499CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Contest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8ACC56C426AADD8D00CA27A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A60E9AC26ABFDAF00B8740E /* AnimeCharactersLocal.swift in Sources */,
+				8A60E9B126ABFE1C00B8740E /* AnimeCharactersNetwork.swift in Sources */,
+				8A2F15A426AAE8D3009652BF /* AnimeCharacter.swift in Sources */,
+				8ACC570326AAE1DB00CA27A6 /* AnimeCharacterDetailViewController.swift in Sources */,
+				8ACC56CC26AADD8D00CA27A6 /* AppDelegate.swift in Sources */,
+				8ACC570A26AAE23600CA27A6 /* AnimeChraterTableViewCell.swift in Sources */,
+				8A60E9B526ABFEEF00B8740E /* AnimeCharactersRepository.swift in Sources */,
+				8A60E9A226ABFC5B00B8740E /* AnimeCharacterDetailViewModel.swift in Sources */,
+				8A2F15B026AB0391009652BF /* ImageViewExtension.swift in Sources */,
+				8A60E9A926ABFCE700B8740E /* Result.swift in Sources */,
+				8A2F15AB26AAF299009652BF /* AppErrors.swift in Sources */,
+				8A60E9A626ABFCB700B8740E /* AnimeCharactersViewModel.swift in Sources */,
+				8ACC56FA26AAE1A200CA27A6 /* AnimeCharactersViewController.swift in Sources */,
+				8ACC56CE26AADD8D00CA27A6 /* SceneDelegate.swift in Sources */,
+				8A2F15A726AAE9A2009652BF /* FakeData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8ACC56D626AADD8D00CA27A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ACC56D726AADD8D00CA27A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8ACC56DA26AADD8D00CA27A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8ACC56DB26AADD8D00CA27A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8ACC56DD26AADD8D00CA27A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C23DC1185A3E1F9B20447F9 /* Pods-Contest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Contest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.khangle.Contest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8ACC56DE26AADD8D00CA27A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B64E0B8401F85E524BA1029 /* Pods-Contest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Contest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.khangle.Contest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8ACC56C326AADD8D00CA27A6 /* Build configuration list for PBXProject "Contest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ACC56DA26AADD8D00CA27A6 /* Debug */,
+				8ACC56DB26AADD8D00CA27A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ACC56DC26AADD8D00CA27A6 /* Build configuration list for PBXNativeTarget "Contest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ACC56DD26AADD8D00CA27A6 /* Debug */,
+				8ACC56DE26AADD8D00CA27A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8ACC56C026AADD8D00CA27A6 /* Project object */;
+}
